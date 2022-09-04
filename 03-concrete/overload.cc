@@ -18,7 +18,7 @@ int foo(int x) { return 0; }
 #endif
 
 #ifndef N1
-int foo(const int &x) { return 1; }
+int foo(const int &x) { return 1; } // int x; foo(x);
 #endif
 
 #ifndef N2
