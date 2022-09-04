@@ -27,9 +27,11 @@ struct MyBigClass {
 };
 
 int main() {
-  MyBigClass *S = new MyBigClass;
-  MySmallClass *T = new MySmallClass;
-  MyBigClass *P = new MyBigClass[5];
+  //MyBigClass *S = new MyBigClass;
+  //MySmallClass *T = new MySmallClass;
+  //MyBigClass *P = new MyBigClass[5];
   MySmallClass *Q = new MySmallClass[7];
-  delete[] T; // terribly wrong
+  //delete[] T; // terribly wrong
+  //delete T;
+  delete Q;
 }
