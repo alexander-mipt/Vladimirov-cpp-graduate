@@ -1,6 +1,6 @@
 SFINAE
 
-![image-20221217131241788](media/image-20221217131241788.png)
+![image-20221217131241788](media/image-20221217131241788.png
 
 **SFINAE - substitution failure is not an error**
 
