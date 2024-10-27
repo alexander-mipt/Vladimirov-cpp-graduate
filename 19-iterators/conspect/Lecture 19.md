@@ -1,6 +1,4 @@
-# Lecture 19
-
-## Iterators
+## Лекция 19. Iterators
 
 Джигитовка `for`:
 
